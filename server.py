@@ -16,13 +16,13 @@ while True:
     client_socket, client_address = server_socket.accept()
 
     print("Client connected.")
-
-    message = client_socket.recv(MAX_LINE).decode()
-
-    print("Received from client:", message)
-
-    response = "Hello from server!"
-
-    client_socket.send(response.encode())
-
+    
+    while True:
+        message = client_socket.recv(MAX_LINE).decode()
+        if not message:
+            break
+        print("Received from client:", message)
+        response = "Message received: " + message
+        client_socket.send(response.encode())
+    
     client_socket.close()

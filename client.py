@@ -14,12 +14,16 @@ client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 client_socket.connect((server_host, SERVER_PORT))
 
-message = input("Enter a message: ")
+while True:
+    message = input("Enter a message: ")
 
-client_socket.send(message.encode())
+    if message == "QUIT":
+        break
 
-response = client_socket.recv(MAX_LINE).decode()
+    client_socket.send(message.encode())
 
-print("Server:", response)
+    response = client_socket.recv(MAX_LINE).decode()
+
+    print("Server:", response)
 
 client_socket.close()
