@@ -1,0 +1,7 @@
+Commands that have been implemented: BUY, SELL, LIST, BALANCE, QUIT, SHUTDOWN
+Instructions about how to compile and run the program
+Problems or bugs: None found (yet . . .)
+Output at the client side of a sample run of all
+commands you implemented, this can be replaced with a recorded video of running the
+server and client in all cases.
+
