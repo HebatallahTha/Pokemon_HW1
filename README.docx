@@ -17,3 +17,5 @@ AI:
 Google gemeni + google search for any terminal errors or crashes that occured while testing
 
 Sample output: In video format
+
+Platform/lang: Python was used as well as sqlite for the SQL package, it was ran on VSCODE for testing
