@@ -113,7 +113,7 @@ def safe(func):
     """
     now any error will return 400 instead of a crach like in PA1.
     """
-    def wrapper(*args): #take in any number of arguments
+    def wrapper(*args): #take in any number of arguments, args will be used across my script to keep variable names better and easier to read along eith the kwargs 
         with db_lock: #only one thread can use the database at a time
             try: #try to run the function
                 return func(*args)
