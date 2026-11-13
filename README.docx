@@ -1,8 +1,19 @@
 Commands that have been implemented: BUY, SELL, DEPOSIT, 
 BALANCE, LIST, QUIT, SHUTDOWN, LOGIN, LOGOUT, WHO, LOOKUP
-Instructions about how to compile and run the program
-Problems or bugs: None found (yet . . .)
-Output at the client side of a sample run of all
-commands you implemented, this can be replaced with a recorded video of running the
-server and client in all cases.
 
+Hebatallah Tharhan; htharhan@umich.edu
+Mariam Elshahhat; 
+
+Heba: SQL programming, it was easier to edit script since I worked on it in PA1 and found a lot of similarties from previous SQL projects
+Mariam: Server side
+
+Instructions:
+To run the python scripts sepratley simply run in a python env with the sqlite library installed.
+For the server side: .. 
+
+Problems or bugs: None found (yet . . .)
+
+AI: 
+Google gemeni + google search for any terminal errors or crashes that occured while testing
+
+Sample output: In video format
