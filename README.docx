@@ -1,4 +1,5 @@
-Commands that have been implemented: BUY, SELL, LIST, BALANCE, QUIT, SHUTDOWN
+Commands that have been implemented: BUY, SELL, DEPOSIT, 
+BALANCE, LIST, QUIT, SHUTDOWN, LOGIN, LOGOUT, WHO, LOOKUP
 Instructions about how to compile and run the program
 Problems or bugs: None found (yet . . .)
 Output at the client side of a sample run of all
